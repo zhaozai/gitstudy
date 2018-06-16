@@ -8,3 +8,5 @@ Add \r \n
 
 update second time
 
+git merge --no-ff
+
