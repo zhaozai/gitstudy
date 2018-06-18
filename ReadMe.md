@@ -34,3 +34,7 @@ git config --system # 系统中对所有用户都普遍适用的配置
 git config --global  # 设定当前用户的git配置
 
 git config xxx   # 设定当前项目的git配置
+
+
+#追加到上一次提交
+git ci --amend     #是否修改上次 comment :wq退出编辑，push到远程即可
