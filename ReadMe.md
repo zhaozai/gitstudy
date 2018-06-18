@@ -37,4 +37,16 @@ git config xxx   # 设定当前项目的git配置
 
 
 #追加到上一次提交
+
 git ci --amend     #是否修改上次 comment :wq退出编辑，push到远程即可
+
+
+#创建新分支并推送至远程
+
+git co -b dev
+
+git add .
+
+git ci -m "update readme"
+
+git ps origin dev
