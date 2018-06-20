@@ -2,11 +2,11 @@
 
 ===============
 
-Study it again and again
+Study git again and again
 
 Add \r \n
 
-update second time
+### Commit without using fast-forward mode will have a clean tree insight
 
 ``` 
 git merge --no-ff
@@ -14,11 +14,9 @@ git merge --no-ff
 
 update at cooperation
 
-### add config to .ssh/config file
-
-Resolve the multi machine commit to multi repository problem
-
-config like this:
+### Multiply machine commit to multi repository problem
+add config to .ssh/config file
+content like bellow :
 
 ```
 #Default Github
@@ -31,7 +29,7 @@ Host github.com
     IdentityFile ~/.ssh/id_rsa_github
 ```
 
-modify default config
+### Configuration working scope
 
 ```
 git config --system # 系统中对所有用户都普遍适用的配置
