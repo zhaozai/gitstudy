@@ -21,11 +21,8 @@ content like bellow :
 ```
 #Default Github
 Host github.com
-
     HostName github.com
-
     User git
-
     IdentityFile ~/.ssh/id_rsa_github
 ```
 
@@ -40,6 +37,14 @@ git config xxx   # 设定当前项目的git配置
 ```
 
 ### 追加到上一次提交
+
 ```
 git ci --amend     #是否修改上次 comment :wq退出编辑，push到远程即可
 ```
+
+### 跳过暂存区提交
+
+```
+git ci -a -m "skip cached area commit"
+```
+
