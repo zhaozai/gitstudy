@@ -50,3 +50,6 @@ git add .
 git ci -m "update readme"
 
 git ps origin dev
+
+git ps origin dev:dev
+
